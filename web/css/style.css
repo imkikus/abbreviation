@@ -1,0 +1,59 @@
+.custom-topbar {
+  background-color: #4078c0;
+}
+.custom-spinner {
+  color: #4078c0;
+  font-size: 3em;
+}
+.text-center {
+  text-align: center;
+}
+.loader {
+  margin-top: 50%;
+  display: none;
+}
+.user-image {
+  width: 75%;
+  border-radius: 10px;
+}
+/* Search text and icon */
+.placeholder {
+  display: none;
+  width: 100%;
+  height: 100px;
+  color: #999;
+  text-align: center;
+  margin-top: 35%;
+  margin-bottom: 30px;
+}
+.placeholder.active {
+  display: block;
+}
+.placeholder span {
+  display: block;
+  margin: 0 auto 16px;
+  height: 65px;
+  width: 65px;
+  -webkit-background-size: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.placeholder.search span {
+  background-image: url('/images/search.png');
+}
+.footer {
+  text-align: center;
+  color: #999;
+  font-style: italic;
+  font-size: 0.8em;
+  margin-bottom: 20px;
+}
+.footer-logo {
+  vertical-align: middle;
+  background: no-repeat url("/images/github-logo.png") center center;
+  background-size: 80px 30px;
+  width: 85px;
+  height: 30px;
+  display: inline-block;
+}

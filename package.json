@@ -1,0 +1,14 @@
+{
+  "name": "abbr-appbrowzer",
+  "version": "1.0.0",
+  "description": "Fetch the details of the github user",
+  "main": "index.js",
+  "scripts": {
+    "start": "zerver web"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "zerver": "^1.0.2"
+  }
+}
