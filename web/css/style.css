@@ -12,10 +12,6 @@
   margin-top: 50%;
   display: none;
 }
-.user-image {
-  width: 75%;
-  border-radius: 10px;
-}
 /* Search text and icon */
 .placeholder {
   display: none;
@@ -41,19 +37,4 @@
 }
 .placeholder.search span {
   background-image: url('/images/search.png');
-}
-.footer {
-  text-align: center;
-  color: #999;
-  font-style: italic;
-  font-size: 0.8em;
-  margin-bottom: 20px;
-}
-.footer-logo {
-  vertical-align: middle;
-  background: no-repeat url("/images/github-logo.png") center center;
-  background-size: 80px 30px;
-  width: 85px;
-  height: 30px;
-  display: inline-block;
 }

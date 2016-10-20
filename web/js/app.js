@@ -1,7 +1,6 @@
 var API_KEY = 'zzltaSQ6Qumsh9PDiGIfvmK6Ynn5p1jDpkbjsnqtaOK6kibtug';
 
-App.controller('all', function(page) {
-  // $fullforms.hide();
+App.controller('home', function(page) {
   var $template = $(page).find('.fullform-details').remove();
   var $fullforms = $(page).find('.fullforms-list');
 
@@ -12,6 +11,7 @@ App.controller('all', function(page) {
     e.preventDefault();
     input.blur();
     if(typeof input.value === 'undefined' || input.value === '') {
+      $fullforms.hide();
       $(page).find('.placeholder').show();
       $(page).find('.placeholder .text').text('Please enter the user login name you are looking to search for...');
     } else {
@@ -61,5 +61,5 @@ try {
   App.restore();
 } catch (err) {
   // else start from scratch
-  App.load('all');
+  App.load('home');
 }
